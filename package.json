@@ -1,0 +1,20 @@
+{
+  "name": "@aura/simple-agent",
+  "version": "0.1.0",
+  "description": "Simple agents that implement the WeChat Agent interface — starting with file storage.",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.ts",
+  "exports": { ".": "./index.ts" },
+  "engines": { "node": ">=22" },
+  "dependencies": {
+    "weixin-agent-sdk": "workspace:*"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.8.0"
+  }
+}
